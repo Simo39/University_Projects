@@ -1,0 +1,1 @@
+spark-submit --num-executors 2 --class G044HW3 'Big Data Computing-all.jar' /data/BDC2122/HIGGS10M7D.txt 10 150 2

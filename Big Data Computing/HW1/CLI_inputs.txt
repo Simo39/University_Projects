@@ -1,0 +1,6 @@
+FULL DATASET:
+4 5 United_Kingdom HW1/full_dataset.csv
+10000 SAMPLES DATASET:
+4 5 all HW1/sample_10000.csv
+50 SAMPLES DATASET
+4 0 Italy HW1/sample_50.csv
