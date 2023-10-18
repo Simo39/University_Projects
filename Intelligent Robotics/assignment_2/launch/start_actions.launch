@@ -1,0 +1,7 @@
+<launch>
+    <node name="server" pkg="assignment_1" type="server" output="screen"/>
+    <node name="server_corridor" pkg="assignment_1" type="server_corridor" output="screen"/>
+    <node name="pick_and_place" pkg="assignment_2" type="pick_and_place" output="screen"/>
+    <node name="pick_routine" pkg="assignment_2" type="pick_routine" output="screen"/>
+    <node name="place_routine" pkg="assignment_2" type="place_routine" output="screen"/>
+</launch>

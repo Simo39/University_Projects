@@ -1,0 +1,4 @@
+<launch>
+    <arg name="poses_file" default="our_poses.txt"/>
+    <node name="ros_test" pkg="assignment_2" type="ros_test" args="$(find assignment_2)/poses/$(arg poses_file)" output="screen"/>
+</launch>

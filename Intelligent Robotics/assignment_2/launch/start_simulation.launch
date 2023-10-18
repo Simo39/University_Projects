@@ -1,0 +1,4 @@
+<launch>
+    <node name="human_node" pkg="tiago_iaslab_simulation" type="human_node" output="screen"/>
+    <node name="human_client" pkg="assignment_2" type="human_client" output="screen"/>
+</launch>

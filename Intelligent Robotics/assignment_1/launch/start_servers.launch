@@ -1,0 +1,5 @@
+<launch>
+    <node name="server" pkg="assignment_1" type="server" output="screen"/>
+    <node name="server_corridor" pkg="assignment_1" type="server_corridor" output="screen"/>
+    <node name="service_obstacle_detection" pkg="assignment_1" type="service_obstacle_detection" output="screen"/>
+</launch>

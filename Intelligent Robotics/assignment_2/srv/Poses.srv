@@ -1,0 +1,6 @@
+string[] request
+---
+int32 a
+geometry_msgs/PoseStamped pose_cartesian        #cartesian pose for the arm
+trajectory_msgs/JointTrajectory pose_joint      #joint pose for groups
+geometry_msgs/Pose navigation_pose              #pose for the navigation

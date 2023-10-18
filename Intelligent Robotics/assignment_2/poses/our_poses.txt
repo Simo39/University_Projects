@@ -1,0 +1,136 @@
+# List of poses and joints to pass as input
+
+# Default Arm Pose
+# Requested frame_id = base_footprint
+
+# x coordinate
+0.4
+# y coordinate
+0.0
+# z coordinate
+1.5
+# Roll
+0.0
+# Pitch
+0.0
+# Yaw
+0.0
+
+# Safe Arm Pose during navigation
+# Requested frame_id = base_footprint
+
+# x coordinate
+0.2
+# y coordinate
+0.25
+# z coordinate
+0.7
+# Roll
+0.0
+# Pitch
+-1.57
+# Yaw
+1.57
+
+# Default Head Joints
+
+# head_1_joint
+0.0
+# head_2_joint
+-0.7
+
+# End Corridor Waypoint
+# Requested frame_id = base_footprint
+
+# x coordinate
+8.3261
+# y coordinate
+0.2687
+# z coordinate
+0.0
+# Roll
+0.0
+# Pitch
+0.0
+# Yaw
+-1.3568066
+
+# Table to cylinders waypoint
+# Requested frame_id = map
+
+# x coordinate
+10.9643
+# y coordinate
+-2.3072
+# z coordinate
+0.0
+# Roll
+0.0
+# Pitch
+0.0
+# Yaw
+1.5234118
+
+# Cylinders to table waypoint
+# Requested frame_id = map
+
+# x coordinate
+10.9643
+# y coordinate
+-2.3072
+# z coordinate
+0.0
+# Roll
+0.0
+# Pitch
+0.0
+# Yaw
+-1.5234118
+
+# Picking blue object waypoint
+# Requested frame_id = map
+
+# x coordinate
+7.9480
+# y coordinate
+-2.0127
+# z coordinate
+0.0
+# Roll
+0.0
+# Pitch
+0.0
+# Yaw
+-1.5484493
+
+# Picking red object waypoint
+# Requested frame_id = map
+
+# x coordinate
+7.5076
+# y coordinate
+-1.9284
+# z coordinate
+0.0
+# Roll
+0.0
+# Pitch
+0.0
+# Yaw
+-1.3750334
+
+# Picking green object waypoint
+# Requested frame_id = map
+
+# x coordinate
+7.6538
+# y coordinate
+-3.9357
+# z coordinate
+0.0
+# Roll
+0.0
+# Pitch
+0.0
+# Yaw
+1.478415

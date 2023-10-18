@@ -1,0 +1,8 @@
+<launch>
+    <arg name="poses_file" default="our_poses.txt"/>
+    <node name="service_obstacle_detection" pkg="assignment_1" type="service_obstacle_detection" output="screen"/>
+    <node name="get_poses" pkg="assignment_2" type="get_poses" args="$(find assignment_2)/poses/$(arg poses_file)" output="screen"/>
+    <node name="apriltag_detection" pkg="assignment_2" type="apriltag_detection" output="screen"/>
+    <node name="transform_srv" pkg="assignment_2" type="transform_srv" output="screen"/>
+    <node name="planning_scene" pkg="assignment_2" type="planning_scene" output="screen"/>
+</launch>

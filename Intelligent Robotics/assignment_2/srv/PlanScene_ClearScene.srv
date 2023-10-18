@@ -1,0 +1,5 @@
+# No request
+---
+string[] ids
+geometry_msgs/Pose[] pose
+shape_msgs/SolidPrimitive[] shape
